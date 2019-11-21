@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
-const connection = require("./dbHelper/connection");
+//const connection = require("./dbHelper/connection");
 
 app.use(morgan("dev"));
 /* app.use("/images", express.static("images")); */
