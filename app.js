@@ -26,8 +26,8 @@ app.use((req, res, next) => {
   next();
 });
 
-const eRoute = require("./routes/employees");
-app.use("/employees", eRoute);
+const adminRoute = require("./routes/admin");
+app.use("/admin", adminRoute);
 
 //error handling
 app.use((req, res, next) => {
